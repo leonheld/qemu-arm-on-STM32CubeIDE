@@ -4,7 +4,8 @@ I'm talking about this qemu-arm: https://xpack.github.io/qemu-arm/
 
 You may get this error when trying to run images build in CubeIDE:
 
-```NVIC: Bad read offset 0xd88                                                                                             C:\Users\leon\Documents\bin\xpack-qemu-arm-2.8.0-10\bin\qemu-system-gnuarmeclipse.exe: Attempt to set CP10/11 in SCB->CPACR, but FP is not supported yet.
+```NVIC: Bad read offset 0xd88              
+C:\Users\leon\Documents\bin\xpack-qemu-arm-2.8.0-10\bin\qemu-system-gnuarmeclipse.exe: Attempt to set CP10/11 in SCB->CPACR, but FP is not supported yet.
 ```
 
 1. Change this section of the linker:
