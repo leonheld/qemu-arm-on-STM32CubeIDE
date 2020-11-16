@@ -1,4 +1,4 @@
-# Changes you need to make to run images on qemu-arm built with STM32CubeIDE
+# Changes you need to make in order to run images built with STM32CubeIDE on qemu-arm
 
 I'm talking about this qemu-arm: https://xpack.github.io/qemu-arm/
 
